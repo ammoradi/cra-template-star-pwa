@@ -21,13 +21,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# non template files in root
-/.vscode
-/public
-/src
-.babelrc
-.editorconfig
-.eslintrc
-.stylelintrc.json
-tsconfig.json
