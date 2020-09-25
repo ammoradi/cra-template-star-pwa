@@ -1,7 +1,7 @@
 {
-  "short_name": "Yeka",
-  "name": "Yeka",
-  "description": "Yeka Progressive Web App",
+  "short_name": "Star PWA",
+  "name": "Star PWA",
+  "description": "Star Progressive Web App Template",
   "icons": [
     {
       "src": "images/favicon/48.png",
@@ -49,6 +49,5 @@
   "theme_color": "#70be44",
   "background_color": "#ffffff",
   "orientation": "portrait",
-  "prefer_related_applications": false,
-  "gcm_sender_id": "295622732586"
+  "prefer_related_applications": false
 }
