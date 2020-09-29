@@ -1,44 +1,55 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![star-pwa banner](banner.png?raw=true "star-pwa")
 
-## Available Scripts
+## Usage
 
-In the project directory, you can run:
+### npx
 
-### `yarn start`
+```sh
+npx create-react-app my-app --template star-pwa
+```
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Includes
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- [typescript][typescript]
+- [axios][axios]
+- [redux][redux]
+- [redux-thunk][redux-thunk]
+- [redux-persist][redux-persist]
+- [react-router][reactrouter]
+- [styled-components][styled-components]
+- [eslint][eslint]
+- [prettier][prettier]
+- [stylelint][stylelint]
 
-### `yarn test`
+## Features
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- static type checking with typescript
+- redux for app's state management
+- Async data fetching with axios and redux thunk
+- persisting app data with redux persist
+- routing with react router
+- Eslint configuration that's compatible with prettier
+- Styling with styled components
+- Stylelint configuration that's compatible with styled components
+- Provide global theme management system
+- Global app loading management
+- Provide some basic components
+- Configuration for PWA production update handling
+- VS Code support
 
-### `yarn build`
+## License
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Licensed under the MIT license.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- prettier-ignore-start -->
+[typescript]: https://www.typescriptlang.org/
+[redux]: https://redux.js.org/
+[redux-thunk]: https://github.com/reduxjs/redux-thunk
+[redux-persist]: https://github.com/rt2zz/redux-persist
+[axios]: https://github.com/axios/axios
+[reactrouter]: https://reactrouter.com/
+[styled-components]: https://styled-components.com/
+[eslint]: https://eslint.org/
+[prettier]: https://prettier.io/docs/en/index.html
+[stylelint]: https://github.com/stylelint/stylelint
+<!-- prettier-ignore-end -->
