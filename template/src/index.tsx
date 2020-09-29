@@ -15,6 +15,7 @@ ReactDOM.render(
 // comment this and uncomment register fn below to use service worker in production
 serviceWorker.unregister()
 
+// check serviceWorker.ts to find out how production update procedure works
 // serviceWorker.register({
 //   onUpdate: (registration) => {
 //     try {
