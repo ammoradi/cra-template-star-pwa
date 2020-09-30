@@ -2,6 +2,21 @@
   "name": "cra-template-star-pwa",
   "version": "1.0.2",
   "private": false,
+  "license": "MIT",
+  "main": "template.json",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript",
+    "star-pwa",
+    "pwa"
+  ],
+  "description": "The base template for React apps hosted within our project",
+  "files": [
+    "template",
+    "template.json"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
