@@ -41,7 +41,7 @@ npx create-react-app my-app --template star-pwa
 ## Note
 
 - please see all project's `.ts` files at first. **there are some comments in code for you**.
-- because of **[create react app limitation](https://github.com/facebook/create-react-app/issues/8082)** all of dev dependencies added to dependencies. but you can move them to devDependencies manually
+- because of **[create react app limitation](https://github.com/facebook/create-react-app/issues/8082)** all of dev dependencies (like eslint, prettier, stylelint, husky and lint-staged packages) added to dependencies. but you can move them to devDependencies manually
 
 ## License
 
