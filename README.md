@@ -23,14 +23,15 @@ npx create-react-app my-app --template star-pwa
 
 ## Features
 
-- static type checking with typescript
-- redux for app's state management
+- Static type checking with typescript
+- Redux for app's state management
 - Async data fetching with axios and redux thunk
 - persisting app data with redux persist
-- routing with react router
+- Routing with react router
 - Eslint configuration that's compatible with prettier
 - Styling with styled components
 - Stylelint configuration that's compatible with styled components
+- Pre-commit hooks that runs eslint, prettier and stylelint on your code before commit.
 - Provide global theme management system
 - Global app loading management
 - Provide some basic components
