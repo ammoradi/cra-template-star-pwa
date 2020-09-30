@@ -56,7 +56,7 @@
     "eject": "react-scripts eject",
     "clean-files": "rm -rf ./template/public ./template/src",
     "copy-files": "cp -a ./src/. template/src && cp -a ./public/. template/public",
-    "prepublish": "yarn clean-files && yarn copy-files"
+    "prepublishOnly": "yarn clean-files && yarn copy-files"
   },
   "eslintConfig": {
     "extends": "react-app"
